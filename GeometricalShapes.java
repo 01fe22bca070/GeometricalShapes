@@ -10,6 +10,7 @@ public class GeometricalShapes{
         return length * width;
     }
 
+
     // Method to calculate the area of a circle
     public static double calculateCircleArea(double radius) {
         double PI = 3.14;
@@ -36,3 +37,4 @@ public class GeometricalShapes{
         System.out.println("Area of Square: " + calculateSquareArea(side));
     }
 }
+ 
